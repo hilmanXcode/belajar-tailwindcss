@@ -1,0 +1,8 @@
+@tailwind base;
+
+#toggle:checked ~ label div.toggle-circle {
+    @apply translate-x-3;
+}
+
+@tailwind components;
+@tailwind utilities;
